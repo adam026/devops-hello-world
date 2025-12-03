@@ -1,0 +1,14 @@
+{
+  "name": "Node.js Hello World (DevOps)",
+  "dockerFile": "../Dockerfile",
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm run build",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
